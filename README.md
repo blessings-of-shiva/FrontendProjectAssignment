@@ -124,6 +124,10 @@ Using npm install
 ->Run the project
 Using npm run dev
 
+7)Why I Choose My Approach:
+I chose this project approach because it satisfies all assignment requirements using clean React logic,
+demonstrates CRUD operations, soft delete with auto purge, and focuses on practical problem-solving without unnecessary backend complexity.
+
 
 Name: DRUHIN CHATTERJEE
 Assignment: React CRUD Assignment
