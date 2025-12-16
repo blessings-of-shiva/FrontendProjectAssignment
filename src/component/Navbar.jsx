@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
 import { useNavigate } from 'react-router-dom';
 import "./Navbar.css";
-import Sidebar  from './sidebar';
+import Sidebar  from './Sidebar';
 import {  FaListAlt, FaPlusCircle, FaUserAlt } from 'react-icons/fa';
 const Navbar = () => {
   const navigate=useNavigate();
