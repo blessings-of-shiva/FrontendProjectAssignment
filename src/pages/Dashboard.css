@@ -1,0 +1,214 @@
+*{
+margin: 0;
+padding: 0;
+text-decoration: none;
+list-style: none;
+box-sizing: border-box;
+scroll-behavior: smooth;
+
+}
+#dashboard{
+    min-height:100vh;
+    height:auto;
+     width:100vw;
+     background-color: blue;
+     background-position: center;
+      background-size: cover;
+     background-repeat: no-repeat;
+      font-family: 'Courier New', Courier, monospace;
+     text-decoration: none;
+      z-index: 999;
+}
+#dashblogs{
+     min-height:80vh;
+     height: auto;
+     width:100vw;
+     
+     background-color: blue;
+     
+}
+#dashblogs h2{
+     position: relative;
+     top:4.5vw;
+     font-size: 3.0vw;
+     font-weight: 700;
+     font-family: 'Courier New', Courier, monospace;
+     text-align: center;
+}
+#find{
+       height: 5vh;
+     width: 50vw;
+     margin-top: 5vw;
+     
+     border-radius: 20px;
+     margin-bottom: 1.0vw;
+     background-color: #fff;
+      display: flex;
+     justify-self: center;
+}
+#find i{
+     position: relative;
+     left:1vw;
+     top:1.3vh;
+     font-size: 1.2vw;
+     color: blueviolet;
+}
+#find input{
+    height: 4.6vh;
+     width: 46vw;
+     border-bottom-right-radius: 20px;
+     border-top-right-radius: 20px;
+     position: relative;
+     background-color: #fff;
+     left: 2vw;
+     font-size: 1.1vw;
+     font-weight: 600;
+     color: blue;
+     border: none;
+     outline: none;
+     
+}
+input::placeholder{
+     color:blueviolet;
+     
+}
+#dashbl{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     margin-left: 3.5vw;
+     margin-right: 3.5vw;
+     
+     flex-wrap: wrap;
+     
+}
+#default{
+     font-size: 3.5vw;
+     font-weight: 700;
+
+}
+#dashcon{
+     
+     overflow-wrap: break-word;
+     width: 26vw;
+     margin-top: 2vw;
+     margin-bottom: 2vw;
+}
+#prev{
+     margin-top: 3vw;
+     display: flex;
+     justify-content: center;
+     
+}
+#pencil{
+     position: relative;
+     top:0.1vw;
+     font-size: 0.7vw;
+     margin-right: 0.1vw;
+}
+#trash{
+     position: relative;
+     top:0.1vw;
+     font-size: 0.7vw;
+     margin-right: 0.1vw;
+}
+#dashcon button{
+     font-size: 1.0vw;
+     margin-right: 2vw;
+}
+#dashimg{
+height:25vh;
+ width:20vw;
+  border-radius:12px;
+}
+
+@media(max-width:868px){
+     #dashblogs h2{
+     position: relative;
+     top:12vw;
+     font-size: 6.0vw;
+     font-weight: 700;
+     font-family: 'Courier New', Courier, monospace;
+     text-align: center;
+}
+#find{
+     margin-top:12vw;
+     width:80vw;
+     height: 6vh;
+     margin-bottom: 2.0vw;
+}
+#find i{
+     position: relative;
+     left:1.8vw;
+     top:1.7vh;
+     font-size: 3.5vw;
+     color: blueviolet;
+}
+#find input{
+    height: 4.6vh;
+     width: 72vw;
+     border-bottom-right-radius: 20px;
+     border-top-right-radius: 20px;
+     position: relative;
+     background-color: #fff;
+     top:1.0vw;
+     left: 4vw;
+     font-size: 3.4vw;
+     font-weight: 600;
+     color:blue;
+     border: none;
+     outline: none;
+     
+}
+#dashbl{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     margin-left: 3.5vw;
+     margin-right: 3.5vw;
+     
+     flex-wrap: wrap;
+}
+#default{
+     font-size: 3.5vw;
+     font-weight: 700;
+     margin-left: 10vw;
+}
+#dashbl{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     margin-left: 3.5vw;
+     margin-right: 3.5vw;
+     
+     flex-wrap: wrap;
+     
+}
+#dashcon{
+     width:80vw;
+     margin-top: 2vw;
+     margin-left: 7vw;
+     margin-bottom: 2vw;
+}
+#dashimg{
+     height: 30vh;
+     width:75vw;
+     
+}
+#dashcon button{
+     font-size: 3.0vw;
+     margin-right: 2vw;
+}
+#pencil{
+     position: relative;
+     top:0.1vw;
+     font-size: 2.2vw;
+     margin-right: 0.1vw;
+}
+#trash{
+     position: relative;
+     top:0.1vw;
+     font-size: 2.2vw;
+     margin-right: 0.1vw;
+}
+}

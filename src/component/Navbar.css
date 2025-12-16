@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+#adnav{
+    position: fixed;
+    top:0;
+    left:0;
+    height:10vh;
+    width:100vw;
+    display: flex;
+    flex-direction: row;
+    background-color:rgba(0,0,0,0.8);
+    color: violet;
+    font-size: 1.6vw;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+   
+}
+#adnav h1{
+    font-size: 2.0vw;
+    font-weight: 700;
+    color: violet;
+    margin-top:1.5vw ;
+    margin-left: 2vw;
+}
+#adnav h1:hover{
+     cursor: pointer;
+    font-size: 2.1vw;
+    color: white;
+}
+
+#adnav ul{
+    display: flex;
+    flex-direction: row;
+    margin-left:65vw;
+}
+#adnav ul li i{
+    font-size: 1.5vw;
+    position: relative;
+    top: 0.4vw;
+}
+#adnav li{
+    margin-top:1.5vw;
+   margin-right: 1.9vw;
+   display: flex;
+}
+#adnav li:hover{
+    cursor: pointer;
+    font-size: 1.7vw;
+    color: white;
+}
+#menuicon {
+    display: none;
+    position: relative;
+    top:1.5vw;
+    font-size: 2.0vw;
+}
+@media (max-width:868px){
+    #menuicon {
+        display: block;
+        font-size: 5.5vw;
+        position: relative;
+        top:3vw;
+        right:6vw;
+    }
+    #adnav{
+         position: fixed;
+        top:0;
+        left:0;
+        height:8vh;
+        width:100vw;
+        display: flex;
+        flex-direction: row;
+    }
+    #adnav h1{
+    font-size: 5.5vw;
+    font-weight: 700;
+    color: violet;
+    margin-top:2.8vw ;
+    margin-left: 2vw;
+   }
+   #adnav h1:hover{
+    font-size: 5.5vw;
+    font-weight: 700;
+    color: violet;
+    margin-top:2.8vw ;
+    margin-left: 2vw;
+   }
+    #adnav li{
+        display: none;
+    }
+}

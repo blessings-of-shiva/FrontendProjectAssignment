@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+#editblog{
+    height:100vh;
+    width:100vw;
+    background-color: aqua;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#editform{
+    height:97vh;
+    width:30vw;
+    background-color: rgba(0,0,0,0.6);
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    position: relative;
+    top:0.5vw;
+    border-radius: 15px;
+}
+#editform form{
+    display: flex;
+    flex-direction: column;
+    
+}
+#editform i{
+    font-size: 2.0vw;
+    display: flex;
+    margin-top: 1vw;
+    margin-left: 27vw;
+}
+#editform i:hover{
+    font-size: 2.1vw;
+    cursor: pointer;
+}
+#editform h2{
+    font-size: 2.3vw;
+    text-align: center;
+    font-weight: 700;
+}
+#editform h2:hover{
+    font-size: 2.4vw;
+    cursor: pointer;
+}
+#editform input,select{
+    height:2.5vw;
+    width: 26vw;
+    margin-top: 1.3vw;
+    margin-left: 1.8vw;
+    border-radius: 12px;
+    font-size: 1.3vw;
+    font-weight: 600;
+}
+#editform input:hover,#editform select:hover{
+    height:2.8vw;
+    width: 27vw;
+    cursor: pointer;
+}
+#editform textarea{
+      height:4.6vw;
+     width: 26vw;
+     margin-left: 1.8vw;
+     margin-top: 1.3vw;
+     border-radius: 12px;
+    font-size: 1.0vw;
+    font-weight: 500;
+}
+#editform textarea:hover{
+    height:4.8vw;
+    width: 27vw;
+    cursor: pointer;   
+}
+#editform button{
+    height: 2vw;
+    width:24vw;
+    align-self: center;
+    border-radius: 12px;
+    font-size: 1.4vw;
+}
+#editform button:hover{
+    height:2.1vw;
+    width: 25vw;
+    cursor: pointer;
+}
+#editimg{
+    height:20vh;
+    width:26vw;
+    align-self:center;
+    margin-bottom:1vw;
+}
+@media(max-width:868px){
+    #editform{
+    height:97vh;
+    width:70vw;
+    background-color: rgba(0,0,0,0.6);
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    position: relative;
+    top:0.5vw;
+    border-radius: 15px;
+}
+
+#editform form{
+    display: flex;
+    flex-direction: column;
+    
+}
+#editform i{
+    font-size: 5.5vw;
+    display: flex;
+    margin-top: 1vw;
+    margin-left: 60vw;
+}
+#editform i:hover{
+    font-size: 5.6vw;
+    cursor: pointer;
+}
+#editform h2{
+    font-size: 5.3vw;
+    text-align: center;
+    font-weight: 700;
+}
+#editform h2:hover{
+    font-size: 5.4vw;
+    cursor: pointer;
+}
+#editform input,#editform select{
+    height:7.5vw;
+    width: 66vw;
+    margin-top: 1.3vw;
+    margin-left: 1.8vw;
+    border-radius: 12px;
+    font-size: 3.3vw;
+    font-weight: 600;
+}
+input::placeholder,select::placeholder{
+    color: #fff;
+}
+#editform input:hover,#editform select:hover{
+    height:7.8vw;
+    width: 67vw;
+    cursor: pointer;
+}
+#editform textarea{
+      height:11.6vw;
+     width: 66vw;
+     margin-left: 1.8vw;
+     margin-top: 1.3vw;
+     border-radius: 12px;
+    font-size: 3.3vw;
+    font-weight: 500;
+}
+#editform textarea:hover{
+    height:11.8vw;
+    width: 67vw;
+    cursor: pointer;   
+}
+#editform button{
+    height: 5vw;
+    width:54vw;
+    align-self: center;
+    border-radius: 12px;
+    font-size: 4.1vw;
+}
+#editform button:hover{
+    height:5.1vw;
+    width: 55vw;
+    cursor: pointer;
+}
+#editimg{
+    height:35vh;
+    width:56vw;
+    align-self:center;
+    margin-bottom:3vw;
+}}
