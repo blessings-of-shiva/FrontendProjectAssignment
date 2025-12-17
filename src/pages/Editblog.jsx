@@ -55,14 +55,21 @@ const Editblog = () => {
     const error = Imagevalidation(file);
     if (error) {
       setError(error);
+        setImage(null);
+      setPreview(null);
+      e.target.value = "";
       return;
     }
     //this previews the image
-    setPreview(URL.createObjectURL(file));
+    //setPreview(URL.createObjectURL(file));
     //this converts image to base64
     const reader = new FileReader();
     //this loads the image
-    reader.onloadend = () => setImage(reader.result);
+    reader.onloadend = () => 
+        {
+            setImage(reader.result);
+      setPreview(reader.result);
+        };
     reader.readAsDataURL(file);
   };
 
